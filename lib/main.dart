@@ -5,7 +5,7 @@ import 'package:chatting_app1/screens/thirdPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(MaterialApp(debugShowCheckedModeBanner: false,
     initialRoute: '/first',
     routes: {
       '/first': (context) => FirstPage(),
